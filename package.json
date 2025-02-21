@@ -2,9 +2,10 @@
   "name": "local-storage-parcel",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://github.com/EgorKancir/localStorage-Parcel.git",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html  --public-url /my-1-parcel-site/",
+    "build": "parcel build index.html  --public-url /localStorage-Parcel/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel-bundler": "^1.12.5"
   }
 }
